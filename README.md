@@ -1,7 +1,7 @@
 # ZenTube-FrontEnd
 In Your Flow, Always Learning. 
 
-**Backend - https://github.com/Neilblaze/zentube **
+Backend - https://github.com/Neilblaze/zentube
 
 # Inspiration 💡
 
