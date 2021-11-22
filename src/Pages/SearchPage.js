@@ -1,15 +1,14 @@
-
-import Password from "../components/Password";
-import StyledButton from "../components/StyledButton";
-import Username from "../components/Username";
-import GoogleSignIn from "../components/GoogleSignIn";
-import MainSearchBar from "../components/MainSearchBar";
-import QuestionsSearchBar from "../components/QuestionsSearchBar";
-import Answers from "../components/Answers";
-import PreviousSearches from "../components/PreviousSearches";
-import Positive from "../components/Postive";
-import Negative from "../components/Negative";
-import Neutral from "../components/Neutral";
+import Password from "../Components/Password";
+import StyledButton from "../Components/StyledButton";
+import Username from "../Components/Username";
+import GoogleSignIn from "../Components/GoogleSignIn";
+import MainSearchBar from "../Components/MainSearchBar";
+import QuestionsSearchBar from "../Components/QuestionsSearchBar";
+import PreviousSearches from "../Components/PreviousSearches";
+import CaptionDisplay from "../Components/CaptionDisplay";
+import Positive from "../Components/Postive";
+import Negative from "../Components/Negative";
+import Neutral from "../Components/Neutral";
 
 function SearchPage() {
   return (
@@ -20,7 +19,6 @@ function SearchPage() {
       <Password placeholder="PASSWORD" />
       <Username placeholder="USERNAME" />
       <QuestionsSearchBar placeholder="Got Questions to Ask? (We can get you through the fluff)" />
-      <Answers />
       <PreviousSearches />
       <CaptionDisplay />
     </div>

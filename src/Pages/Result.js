@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import Answers from "../Components/Answers";
-import Hands from "../components/Hands";
-import Header from "../components/Header";
-import PreviousSearches from "../components/PreviousSearches";
-import QuestionsSearchBar from "../components/QuestionsSearchBar";
-import ResultsPromps from "../components/ResultsPromps";
+import Header from "../Components/Header";
+import PreviousSearches from "../Components/PreviousSearches";
+import QuestionsSearchBar from "../Components/QuestionsSearchBar";
+import ResultsPromps from "../Components/ResultsPromps";
 import vector5 from "../images/vector5.png";
 import vector6 from "../images/vector6.png";
 import team from "../images/team.png";
 import metrohacks from "../images/metrohacks.png";
 
 import wow_infographics from "../images/wow_infographics.png";
-import Footer from "../components/Footer";
-import Positive from "../components/Postive";
+import Footer from "../Components/Footer";
+import Positive from "../Components/Postive";
 function Result() {
   const [file, setFile] = useState("");
   const text =
