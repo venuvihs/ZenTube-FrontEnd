@@ -1,4 +1,5 @@
 # ZenTube-FrontEnd
+In Your Flow, Always Learning. 
 
 # Inspiration 💡
 
